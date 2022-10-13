@@ -1,0 +1,35 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}	
+
+h1{ 
+	font-family: 'Dancing Script', cursive;
+	font-size:2em ;
+	color: black;
+	border-bottom:2px solid darkred;
+	border-right:2px solid darkred;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #8888888;
+	}
+
+p{
+	text-align: center;
+}
+img {
+	height: 300px;
+	width: 450px;
+	margin: 10px;
+	transition: all 1s;
+	}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.pointer{
+	text-align: center; 
+	cursor:pointer;
+		}
